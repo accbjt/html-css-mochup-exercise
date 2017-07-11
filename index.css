@@ -54,6 +54,7 @@ table {
 .top-bar {
   position: absolute;
   padding: 23px 238px;
+	top: 10px;
 }
 
 .top-bar li {
