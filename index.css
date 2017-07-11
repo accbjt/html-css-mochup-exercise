@@ -48,7 +48,7 @@ table {
 }
 
 .hero img {
-  /*width: 100%;*/
+  width: 100%;
 }
 
 .top-bar {
@@ -58,8 +58,8 @@ table {
 }
 
 .top-bar li {
-  /*display: inline-block;
-  padding: 0 20px;*/
+  display: inline-block;
+  padding: 0 20px;
 }
 
 .top-bar li:hover {
