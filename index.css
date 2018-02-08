@@ -135,6 +135,21 @@ table {
     border-spacing: 0;
 }
 
+@font-face {
+	font-family: 'PTSansFont';
+	src: url('font/PT_Sans-Web-Regular.ttf'); 
+}
+
+@font-face {
+	font-family: 'PTSansFont';
+    src: url('font/PT_Sans-Web-Bold.ttf'); 
+    font-weight: bold;
+}
+
+body {
+    font-family: 'PTSansFont', sans-serif;
+}
+
 .hero img {
     width: 100%;
 }
@@ -145,18 +160,19 @@ table {
 }
 
 .topbar ul {
-    width: 444px;
+    width: 447px;
     margin: 0 auto;
 }
 
 .topbar li {
-    padding: 0 20px;
+    letter-spacing: 2px;
+    padding: 0 12px;
     float: left;
     position: relative;
     top: 57px;
     transform: translateY(-50%);
-    font-family: 'PT Sans', sans-serif;
     font-size: 11;
+    font-weight: bold;
 }
 
 .topbar li a {
@@ -168,4 +184,37 @@ table {
     width: 70px;
 }
 
-.topbar li a:hover {}
+.section2 {
+    padding-top: 86px;
+    height: 275px;
+    position: absolute;
+    width: 100%;
+    background: #f7f7f7;
+}
+
+.section2>p {
+    font-size: 13px;
+    text-align: center;
+    width: 74%;
+    margin: auto;
+    padding-top: 16px;
+    line-height: 28px;
+    color: #0000009c;
+}
+
+.section2 header {
+    margin: auto;
+    text-align: center;
+}
+
+.section2 header p {
+    padding-top: 25px;
+    font-size: 14;
+    letter-spacing: 2px;
+}
+
+.section2 img {
+    margin: 0 109px;
+    width: 42px;
+}
+
